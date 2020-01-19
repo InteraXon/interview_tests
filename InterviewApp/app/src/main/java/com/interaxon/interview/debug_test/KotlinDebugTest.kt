@@ -18,5 +18,5 @@ fun solution(A: IntArray, B: IntArray): Int {
 }
 
 fun main() {
-    println("ok")
+
 }
