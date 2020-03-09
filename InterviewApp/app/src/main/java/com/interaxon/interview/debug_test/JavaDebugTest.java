@@ -5,7 +5,7 @@ import java.util.Arrays;
 @SuppressWarnings("ALL")
 public class JavaDebugTest {
 
-    int solution(int[] A, int[] B) {
+    static int solution(int[] A, int[] B) {
         int n = A.length;
         int m = B.length;
         Arrays.sort(A);
