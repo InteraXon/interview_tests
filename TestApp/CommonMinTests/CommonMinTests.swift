@@ -1,6 +1,6 @@
 import XCTest
 
-public func commonMin(_ A: inout [Int], _ B: inout [Int]) -> Int {
+func commonMin(_ A: inout [Int], _ B: inout [Int]) -> Int {
   let n: Int = A.count
   let m: Int = B.count
   A.sort()
