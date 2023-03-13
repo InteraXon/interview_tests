@@ -36,6 +36,7 @@
 		4E17190223ABD95600A3865A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E17190523ABD95600A3865A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E17190723ABD95600A3865A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0D323B29BFB5A60079ED72 /* CodeReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReview.swift; sourceTree = "<group>"; };
 		9A32288F29A02AA100BBCD74 /* CommonMinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonMinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A32289129A02AA100BBCD74 /* CommonMinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMinTests.swift; sourceTree = "<group>"; };
 		9A32289C29A02CC700BBCD74 /* AnagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +71,7 @@
 		4E1718ED23ABD95500A3865A = {
 			isa = PBXGroup;
 			children = (
+				9A0D323A29BFB5950079ED72 /* CodeReview */,
 				4E1718F823ABD95500A3865A /* TestApp */,
 				9A32289029A02AA100BBCD74 /* CommonMinTests */,
 				9A32289D29A02CC700BBCD74 /* AnagramTests */,
@@ -99,6 +101,14 @@
 				4E17190723ABD95600A3865A /* Info.plist */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		9A0D323A29BFB5950079ED72 /* CodeReview */ = {
+			isa = PBXGroup;
+			children = (
+				9A0D323B29BFB5A60079ED72 /* CodeReview.swift */,
+			);
+			path = CodeReview;
 			sourceTree = "<group>";
 		};
 		9A32289029A02AA100BBCD74 /* CommonMinTests */ = {
