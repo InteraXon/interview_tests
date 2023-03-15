@@ -32,11 +32,9 @@ class OperatorB: Operator {
 
 class Processor {
     let operators: [Operator]
-    let provider: Provider
 
     init() {
         operators = [OperatorA(), OperatorB(), OperatorA()]
-        provider = Provider()
     }
 
     func run(arg: Float) -> Float {
