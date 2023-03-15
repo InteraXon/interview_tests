@@ -59,6 +59,7 @@ class Processor {
         for _ in 0..<Int(value) % 7 {
             result += result * 1.1
             result += (value + 1.756) * 2.56
+            result += (value + 1.756) * 2.56
         }
         return result
     }
